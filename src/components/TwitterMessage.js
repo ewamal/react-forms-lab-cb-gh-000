@@ -10,7 +10,11 @@ class TwitterMessage extends React.Component {
   }
 
   handleInputChange = (event) => {
+<<<<<<< HEAD
     console.log(event.target)
+=======
+    console.log(event.target.name)
+>>>>>>> b50cc1e491c3715adef9fa550623ae767568e514
     this.setState({
       tweet: event.target.value,
     }, () => console.log(this.state.tweet))
